@@ -1,0 +1,6 @@
+Experiment date: 2026-07-30
+Architecture: arm64
+RTK version: rtk 0.44.1
+Python version: Python 3.11.15
+Docker version: Docker version 29.6.2, build dfc4efb
+SWE-bench commit: f7bbbb2ccdf479001d6467c9e34af59e44a840f9

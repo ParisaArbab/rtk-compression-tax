@@ -1,0 +1,16 @@
+Local SWE-bench compatibility patch
+
+Problem:
+The sympy__sympy-20590 setup tried to clone the removed remote branch 1.7.
+
+Original behavior:
+git clone --branch 1.7 --single-branch ...
+
+Local fix:
+Try the original branch-specific clone first. If it fails, clone the full
+repository and then reset to the exact historical base commit.
+
+Modified file:
+external/SWE-bench/swebench/harness/test_spec/python.py
+
+This modification should be reported in experiment documentation.
