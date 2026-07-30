@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 Run the same terminal command in two conditions:
 
@@ -15,7 +13,7 @@ The script saves:
 - output diff
 - experiment metrics
 - command information
-"""
+"""  # noqa: EXE002
 
 from __future__ import annotations
 
@@ -168,7 +166,7 @@ def create_output_directory(
 ) -> Path:
     """Create a unique directory for the current experiment."""
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now().astimezone().strftime("%Y%m%d_%H%M%S")
 
     safe_name = "".join(
         character if character.isalnum() or character in "-_" else "_"

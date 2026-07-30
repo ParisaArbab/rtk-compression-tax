@@ -1,0 +1,17 @@
+{
+  "ruff.exclude": [
+    "external",
+    ".venv",
+    "results"
+  ],
+
+  "python.analysis.exclude": [
+    "**/.*",
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.pytest_cache",
+    ".venv",
+    "external",
+    "results"
+  ]
+}
