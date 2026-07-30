@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# macOS
+.DS_Store
+
+# Experiment outputs
+results/*
+!results/.gitkeep
+
+# External repositories
+external/
+
+# SWE-bench logs and images
+logs/
+evaluation_results/
+
+# API keys
+*.key
