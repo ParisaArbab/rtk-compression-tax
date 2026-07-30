@@ -20,3 +20,5 @@ evaluation_results/
 
 # API keys
 *.key
+
+workspaces/
